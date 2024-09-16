@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#container {
+    width: 550px;
+    height: 350px;
+    margin: 30px auto;
+    padding: 5px 30px;
+    box-shadow: 0 5px 20px #c0c0c0 ;
+    border-radius: 20px;
+}
+
+.highcharts-data-table table {
+    border: 1px solid black;
+    margin: auto;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.highcharts-data-table caption {
+    font-size: 20px;
+    padding: 10px;
+    color: #979797;
+}
+
+.highcharts-data-table thead:hover {
+    cursor: pointer;
+}
+
+
+.highcharts-data-table th {
+    padding: 10px;
+}
+
+.highcharts-data-table tr:nth-child(2n+1) {
+    background-color: #e7e7e7;
+}
+
+.highcharts-data-table tr:hover {
+    background-color: rgb(210, 233, 233);
+}
